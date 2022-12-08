@@ -2,80 +2,131 @@
     font-family: 'Montserrat', sans-serif;
     margin: 0;
 }
-.header{
-    background:linear-gradient(120deg, #0f0c29, #302b63);
+.background {
+    background:rgba(18,18,26,1);
+    background-image:url('http://artlantis-media.ru/static/img/0000/0002/7260/27260842.qvpm616fga.png');
 }
-.header .box{
-    align-items: center;
-    min-height: 100vh;
-    background-position: center;
+.background .box-container{
+    display: flex;
+    padding-left: 5%;
 }
-.header .box .content{
-    text-align: center;
-    padding-top: 12rem;
+.background .box-container .box{
+    width: 50%;
+    padding-top: 11rem;
 }
-.header .box .content h1{
+.background .box-container .box h1{
+    width: 33rem;   
+    font-size: 3rem;
+    font-weight:300;
+    letter-spacing:0.07em;
+    text-shadow:0px 5px 10px rgba(0,0,0,1);
     color: #fff;
-    margin-left: 2rem;
-    font-size: 4rem;
-    padding-right: 1rem;
-    margin-bottom: 2rem;
+    margin-bottom: 1.5rem;
 }
-.header .box .content h2{
-    color: #2ebf91;
-    font-size: 2.5rem;
+.background .box-container .box p{
+    width: 28rem;
+    color: #fff;
+    margin-bottom: 3rem;
+    letter-spacing:0.09em;
+}
+.background .box-container .box .heading{
+    color: orange;
+    letter-spacing: .2rem;
+}
+.background .box-container .box .btn{
+    text-decoration: none;
+    padding: .8rem 1.3rem;
+    background-image: linear-gradient(120deg, #ff9e00 35%, #ff6200 100%);
+    color: #fff;
+    border-radius: 3rem;
+    font-weight: 500;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+.background .box-container .images{
+    width: 50%;
+    padding-top: 3rem;
+}
+.background .box-container .images img{
+    width: 95%;
+}
+.about{
+    max-height: 100vh;
+    background: url(images/7.png);
+}
+.about .about-box{
+    display: flex;
+    padding-left: 5%;
+}
+.about .about-box .box-content{
+    width: 50%;
+    padding-top: 8rem;
+}
+.about .about-box .box-content h1{
+    font-size: 3rem;
+    font-weight: 800;
+    margin-bottom: 2rem;
+    color: #666;
+}
+.about .about-box .box-content p{
+    width: 26rem;
+    line-height: 1.5rem;
+    color: rgb(65, 63, 63);
+    margin-bottom: 3rem;
+}
+.about .about-box .box-content .btn{
+    text-decoration: none;
+    padding: .9rem 2rem;
+    background-image: linear-gradient(120deg, #ff9e00 35%, #ff6200 100%);
+    color: #fff;
+    border-radius: 3rem;
+    font-weight: 500;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+.about .about-box .images{
+    width: 50%;
+    object-fit: cover;
+    margin-left: 10rem;
+    margin-top: 3rem;
+}
+.about .about-box .images img{
+    width: 50%;
+}
+.recipe h1{
+    text-align: center;
+    margin-top: 3.5rem;
+    font-size: 2.2rem;
+    color: #666;
+    font-weight: 900;
     margin-bottom: 1rem;
 }
-.header .box .content p{
-    color:#DBDBDB;
-    width: 80%;
+.recipe .my-recipe .para{
     text-align: center;
-    margin: 0 8rem;
+    line-height: 1.7rem;
+    font-size: 1rem;
+    width: 40rem;
+    margin-left: 22rem;
+    font-weight: 500;
+    color: rgb(40, 39, 39);
 }
-.home{
-    background: linear-gradient(120deg,  #8360c3, #2ebf91);
-}
-.home .container{
+.recipe .my-recipe .yummy-lover{
     display: flex;
-    gap: 2rem;
+    gap: 1.5rem;
+    padding: 3.8rem;
 }
-.home .container .about{
+.recipe .my-recipe .yummy-lover .images{
     width: 50%;
-    padding-left: 2%;
-    margin-top: 1rem;
+    box-shadow: 0 0 50px #ccc;
+    padding: 2rem ;
+    border-radius: 2rem;
 }
-.home .container .about h1{
-    margin: 2rem 0;
-    font-size: 3rem;
-    color: #fff;
+.recipe .my-recipe .yummy-lover .images img{
+    height: 17rem;
+    width: 34rem;
 }
-.home .container .about p{
-    color:    #fafafd;
-    margin: 0 0 3rem;
-}
-.home .container .about h3{
-    margin: 1.3rem 0;
-    color: #d4fc79;
-    font-size: 1.2rem;
-}
-.home .container .about .contact{
-    text-decoration: none;
-    color: #fff; 
-    background-color: #D9AFD9;
-    background-image: linear-gradient(120deg, #0f0c29 0%, #302b63 100%);
-    padding: .8rem 1.5rem;
-    font-weight: 600;
-    border-radius: .5rem;
-}
-.home .container .about .contact:hover{
+.recipe .my-recipe .yummy-lover .images h2{
+    margin-top: 1.3rem;
     color: #000;
-    background-color: #FAACA8;
-    background-image: linear-gradient(19deg, #FAACA8 0%, #DDD6F3 100%);
-}
-.home .container .images{
-    width: 50%;
-    margin-top: 1rem;
-}
-.home .container .images img{
-    width: 80%;
+    font-weight: 900;
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
 }
