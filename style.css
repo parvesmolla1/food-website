@@ -2,6 +2,29 @@
     font-family: 'Montserrat', sans-serif;
     margin: 0;
 }
+.header {
+    padding: 1rem 0;
+    padding-left: 5%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background: rgb(220, 212, 212);
+}
+.header .header-again {
+    display: flex;
+    gap: 33.5rem;
+}
+.header .header-again h1{
+    font-size: 2.5rem;
+    color: #ff9e00;
+}
+.header .header-again .navbar{
+    margin-top: .9rem;
+}
+.header .header-again .navbar a{
+    text-decoration: none;
+    margin-left: 3rem;
+    font-size: 1.2rem;
+    color: #692d08;
+}
 .background {
     background:rgba(18,18,26,1);
     background-image:url('http://artlantis-media.ru/static/img/0000/0002/7260/27260842.qvpm616fga.png');
@@ -129,4 +152,39 @@
     font-weight: 900;
     font-size: 1.8rem;
     margin-bottom: 1rem;
+}
+/* counter style */
+.counter .box-counter{
+    display: flex;
+    padding: 5rem;
+    gap: 5rem;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin: 0 5rem;
+    border-radius: 8rem;
+    margin-bottom: 3.5rem;
+}
+.counter .box-counter .box-counter1{
+    padding-left: 9%;
+}
+.counter .box-counter .box-counter1 h2{
+    font-size: 3rem;
+    margin-bottom: .5rem;
+}
+footer{
+    padding: 4rem;
+    background:rgba(18,18,26,1);
+}
+footer span{
+    color: #ff6200;
+    letter-spacing: .2rem;
+}
+footer h2{
+    text-align: center;
+    margin-bottom: 5rem;
+    color: #666;
+    font-weight: 900;
+}
+footer p{
+    text-align: center;
+    color: #ccc ;
 }
